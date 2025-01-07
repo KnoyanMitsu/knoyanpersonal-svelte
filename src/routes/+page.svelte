@@ -4,8 +4,24 @@
 	import { IoArrowDownSharp } from 'svelte-icons-pack/io';
 	import ProjectView from '../view/project.svelte';
 	import ContactView from '../view/contact.svelte';
-</script>
+	import Quotes from '../controller/quotes.js';
+	import {onMount} from 'svelte';
 
+	let quote;
+	onMount(async () => {
+		const quotes = new Quotes();
+		try {
+			const quotesData = await quotes.GetQuotes();
+			quote = quotesData;
+		} catch (error) {
+			console.error('Failed to fetch quotes:', error.message);
+		}
+	});
+
+</script>
+<svelte:head>
+	<title>Knoyan Mitsu | {quote}</title>
+</svelte:head>
 <div class="lg:overflow-y-scroll lg:snap-y lg:snap-mandatory h-screen lg:w-screen">
 	<div class="container mx-auto">
 		<div class="lg:snap-start h-screen relative">

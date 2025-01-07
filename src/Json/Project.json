@@ -10,7 +10,7 @@
 		"languages": ["HTML", "Tailwind", "JavaScript", "Svelte"],
 		"link": {
 			"website": "https://knoyan.vercel.app",
-			"source_code": "https://github.com/KnoyanMitsu/knoyanpersonal"
+			"source_code": "https://github.com/KnoyanMitsu/knoyanpersonal-svelte"
 		}
 	},
 	{
