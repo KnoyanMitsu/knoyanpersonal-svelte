@@ -1,0 +1,96 @@
+[
+	{
+		"id": 1,
+		"image": "Personal.jpg",
+		"title": "Personal Portfolio Website",
+		"year": "2025-Now",
+		"description": "A portfolio website to showcase my projects and skills.",
+		"isPublic": true,
+		"isLive": true,
+		"languages": ["HTML", "Tailwind", "JavaScript", "Svelte"],
+		"link": {
+			"website": "https://knoyan.vercel.app",
+			"source_code": "https://github.com/KnoyanMitsu/knoyanpersonal"
+		}
+	},
+	{
+		"id": 2,
+		"image": "Undangan.png",
+		"title": "Undangan Online",
+		"year": "2022",
+		"description": "Undangan Online is an online invitation platform in Indonesian language for wedding invitations.",
+		"isPublic": true,
+		"isLive": false,
+		"languages": ["PHP", "MySQL", "HTML", "CSS"],
+		"link": {
+			"source_code": "https://github.com/KnoyanMitsu/Undangan-Online"
+		}
+	},
+	{
+		"id": 3,
+		"image": "SeeJTI.jpg",
+		"title": "SeeJTI",
+		"year": "2024",
+		"description": "An Website looking schedule class in Politeknik Negeri Malang",
+		"isPublic": true,
+		"isLive": false,
+		"languages": ["Vue.js", "Tailwind", "PHP", "SQL Server", "JavaScript"],
+		"link": {
+			"website": "",
+			"source_code": "https://github.com/KnoyanMitsu/SeeJTI"
+		}
+	},
+	{
+		"id": 4,
+		"image": "ecommerce.png",
+		"title": "Website for Ecommerce",
+		"year": "2023",
+		"description": "An Ecommerce website with Laravel and Bootstrap",
+		"isPublic": false,
+		"isLive": false,
+		"languages": ["Laravel", "Bootstrap", "PHP", "MySQL"],
+		"link": {}
+	},
+	{
+		"id": 5,
+		"image": "E122.jpg",
+		"title": "E122 aka Frontend e926.net with Flutter",
+		"year": "2023",
+		"description": "A mobile app e926.net with Flutter. i made this for Learn connect API to Flutter",
+		"isPublic": true,
+		"isLive": false,
+		"languages": ["Flutter", "Dart"],
+		"link": {
+			"website": "",
+			"source_code": "https://github.com/KnoyanMitsu/E122"
+		}
+	},
+	{
+		"id": 6,
+		"image": "Bluesky.png",
+		"title": "Skycloud Frontend bluesky with Flutter",
+		"year": "2024",
+		"description": "A social media app mobile with flutter. this app connect with bluesky API",
+		"isPublic": true,
+		"isLive": false,
+		"languages": ["Flutter", "Dart"],
+		"link": {
+			"website": "",
+			"source_code": "https://github.com/KnoyanMitsu/SkyCloud"
+		}
+	},
+	{
+		"id": 7,
+		"image": "Personal.jpg",
+		"title": "Personal Portfolio Website with Vue.js",
+		"year": "2025",
+		"description": "A portfolio website to showcase my projects and skills. but this time with Vue.js",
+		"isPublic": true,
+		"isLive": true,
+		"languages": ["HTML", "Tailwind", "JavaScript", "Vue.js"],
+		"link": {
+			"website": "https://knoyan.vercel.app",
+			"source_code": "https://github.com/KnoyanMitsu/knoyanpersonal"
+		}
+	}
+]
