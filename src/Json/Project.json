@@ -86,7 +86,7 @@
 		"year": "2025",
 		"description": "A portfolio website to showcase my projects and skills. but this time with Vue.js",
 		"isPublic": true,
-		"isLive": true,
+		"isLive": false,
 		"languages": ["HTML", "Tailwind", "JavaScript", "Vue.js"],
 		"link": {
 			"website": "https://knoyan.vercel.app",
