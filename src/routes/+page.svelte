@@ -1,6 +1,4 @@
 <script>
-	import { Icon } from 'svelte-icons-pack';
-	import { IoArrowDownSharp } from 'svelte-icons-pack/io';
 	import Quotes from '../controller/quotes.js';
 	import {onMount} from 'svelte';
   import Home from '../view/home.svelte' 
