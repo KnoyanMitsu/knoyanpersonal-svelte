@@ -21,4 +21,6 @@ export default class Quotes {
             console.error('Failed to fetch quotes:', error.message);
         }
     }
+
+    
 }

@@ -12,7 +12,7 @@
 
         try {
             const stats = await response.GetStats();
-            const targetLang = ["Vue", "PHP", "Python"];
+            const targetLang = ["Vue", "PHP", "Python","Svelte"];
             const filteredStats = stats.filter((stat) => targetLang.includes(stat.language));
             const chartData = {
                 labels: filteredStats.map((stat) => stat.language),
